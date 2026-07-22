@@ -1,0 +1,14 @@
+# Build output. PyInstaller writes a 20MB exe here, and the release zip wraps it.
+dist/
+build/
+*.spec
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
