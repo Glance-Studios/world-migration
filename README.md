@@ -7,10 +7,11 @@ DataFixerUpper on boot; modded items carry over as long as their mod is present 
 26.2 with the same item IDs.
 
 ## Two ways to run it
-- **Standalone exe (no Python needed)** - `dist/transplant_inventories.exe`. Give this
-  to whoever has the backup; it runs on Windows with nothing installed. Same arguments
-  as the script below (drop the `python transplant_inventories.py` and use the exe).
 - **Python script** - `transplant_inventories.py` (needs Python 3.8+ and `pip install nbtlib`).
+- **Standalone exe (no Python needed)** - built with PyInstaller into `dist/`, which is not
+  tracked here. Give the exe to whoever has the backup; it runs on Windows with nothing installed,
+  and takes the same arguments as the script (drop the `python transplant_inventories.py`).
+  `HOW-TO.md` is written for that audience.
 
 ## Prerequisites
 - Every item-adding mod ported to 26.2 with unchanged item IDs (confirmed).
